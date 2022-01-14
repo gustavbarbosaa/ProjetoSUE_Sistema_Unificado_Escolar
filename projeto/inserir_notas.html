@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUE - Inserir notas</title>
+    <link rel="stylesheet" href="estilo/style-notas.css">
+</head>
+<body>
+    <main>
+        <h1 id="text-notas">Insira as notas do aluno aqui e obtenha a média do mesmo!</h1>
+        <div class="notas">
+            <p>Nota 1: <input type="number" name="nota1" id="nota1" placeholder="Insira a 1° nota aqui"></p>
+            <p>Nota 2: <input type="number" name="nota2" id="nota2" placeholder="Insira a 2° nota aqui"></p>
+            <p>Nota 3: <input type="number" name="nota3" id="nota3" placeholder="Insira a 3° nota aqui"></p>
+            <input type="button" value="Calcular média" onclick="media()" id="botao">
+        </div>
+        <div id="media">
+            
+        </div>
+    </main>
+    <footer>
+        <p>Desenvolvido por <strong>Gustavo Henrique</strong>!</p>
+    </footer>
+    <script src="script/inserir_notas.js"></script>
+</body>
+</html>

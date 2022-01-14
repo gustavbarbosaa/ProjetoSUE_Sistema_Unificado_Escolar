@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUE - Página inicial</title>
+    <link rel="stylesheet" href="estilo/style-pagInicial.css">
+</head>
+<body>
+    <header>
+        <div class="cabecalho-titulo">
+            <h1>SUE</h1>
+        </div>
+        <nav class="cabecalho-links">
+            <a href="#" class="links">MENU</a>
+            <a href="#" class="links">LOGIN</a>
+            <a href="#" class="links">CADASTRO</a>
+        </nav>
+    </header>
+    <main>
+        <section class="card">
+            <div class="texto-card">
+                <p>Para cadastrar um novo aluno, acesse este menu!</p>
+            </div>
+            <picture class="cadastrar-aluno-imagem">
+                <img src="imagens/cadastro.png" alt="Imagem cadastro">
+            </picture>
+            <input type="button" value="Ir para cadastro" id="botao" onclick="IrCadastro()">  
+        </section>
+        <section class="card">
+            <div class="texto-card">
+                <p>Para inserir notas, acesse este menu!</p>
+            </div>    
+            <picture class="notas-aluno-imagem">
+                <img src="imagens/notas.png" alt="Imagem notas">
+            </picture>
+            <input type="button" value="Inserir notas" id="botao" onclick="IrNotas()">
+        </section>
+            
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por <strong>Gustavo Henrique</strong>!</p>   
+    </footer>
+    <script>
+        function IrCadastro() {
+            window.location = 'cadastrar_aluno.html';
+        };
+
+        function IrNotas() {
+            window.location = 'inserir_notas.html';
+        };
+    </script>
+</body>
+</html>
