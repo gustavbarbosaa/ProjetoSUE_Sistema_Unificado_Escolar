@@ -1,0 +1,201 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 50px;
+    background-image: url(../imagens/fundo.png);
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    width: 620px;
+    height: 450px;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #bbccbdb4;
+    border-radius: 20px 40px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.377);
+}
+
+.titulo {
+    font-size: 20px;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.377);
+    color: #05001b;
+}
+
+.geral {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.preencher-dados {
+    display: flex;
+    gap: 10px;
+}
+
+.preencher-dados p {
+    font-weight: bold;
+    font-size: 16px;
+    font-style: italic;
+    color: #05001b;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.preencher-dados input {
+    border: none;
+    height: 30px;
+    width: 220px;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.192);
+}
+
+.preencher-dados input::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #05001b86;
+}
+
+.nome-completo p {
+    font-weight: bold;
+    font-size: 16px;
+    font-style: italic;
+    color: #05001b;
+    padding-bottom: 10px;
+}
+
+.nome-completo input{
+    border: none;
+    height: 30px;
+    width: 450px;
+    border-radius: 5px;
+    outline: none;
+    padding: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.192);
+}
+
+.nome-completo input::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #05001b86;
+    
+}
+
+.idade-turma {
+    display: flex;
+    gap: 50px;
+
+}
+
+.idade {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    font-style: italic;
+    color: #05001b;
+}
+
+#data {
+    border: none;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    padding: 3px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.192);
+    outline: none;
+    font-weight: 300;
+    font-size: 14px;
+    font-style: normal;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+}
+
+.turma {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    font-style: italic;
+    color: #05001b;
+}
+
+#turmas {
+    border: none;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    outline: none;
+    padding: 3px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.192);
+    font-weight: 300;
+    font-size: 14px;
+    font-style: normal;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+}
+
+
+
+#botao {
+    border: none;
+    width: 20vw;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #464D47;
+    font-weight: bold;
+    font-size: 16px;
+    font-style: italic;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    letter-spacing: 1.2px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.192);
+    cursor: pointer;
+    
+}
+
+#botao:hover {
+    width: 21vw;
+    height: 37px;
+    background-color: #757e75;
+    transition-duration: 0.5s;
+}
+
+footer {
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+    color: #F1F0F2;
+}
