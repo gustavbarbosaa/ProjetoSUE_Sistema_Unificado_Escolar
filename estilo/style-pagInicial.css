@@ -115,8 +115,7 @@ main {
 #botao:hover {
     background-color: #414641;
     transition-duration: 0.3s;
-    width: 55%;
-    height: 40px;
+    transform: scale(1.05);  
     cursor: pointer;
 }
 
